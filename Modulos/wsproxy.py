@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # encoding: utf-8
-# WebSocket @scottssh
+# WebSocket @gustavo
 import socket, threading, thread, select, signal, sys, time, getopt
 MSG = 'WebSocket'
 COR = '<font color="null">'
