@@ -1,9 +1,5 @@
 #!/bin/bash
 clear
-#--------------------------
-# SCRIPt GUSTAVO VPN
-# CANAL TELEGRAM: @scottssh
-#--------------------------
 
 # - Cores
 RED='\033[1;31m'
@@ -60,4 +56,4 @@ sysctl -p -f /etc/sysctl.d/70-disable-ipv6.conf
 
 # - Execulta instalador
 [[ -e Plus ]] && rm Plus
-wget raw.githubusercontent.com/gustavo3419/SSHPLUS/main/script/${arch}/Plus && chmod 777 Plus && ./Plus
+wget raw.githubusercontent.com/sshplussecurity/SSHPLUS/main/script/${arch}/Plus && chmod 777 Plus && ./Plus

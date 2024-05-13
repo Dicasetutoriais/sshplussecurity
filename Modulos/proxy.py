@@ -16,7 +16,7 @@ TIMEOUT = 60
 MSG = 'WebSocket'
 COR = '<font color="null">'
 FTAG = '</font>'
-MSx = '@GUSTAVO'
+MSx = 'SSHPLUS MOD'
 COx = '<font color="#00FFFF">'
 FTAx = '</font>'
 DEFAULT_HOST = '0.0.0.0:22'

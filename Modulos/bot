@@ -1,12 +1,10 @@
 #!/bin/bash
 #===================================================
-#   SCRIPT: BOT GUSTAVO
+#   SCRIPT: BOT SSHPLUS MOD
 #   DATA ATT: 18 de JuL 2022
-#   DESENVOLVIDO POR: GUSTAVO
+#   DESENVOLVIDO POR: SSHPLUS MOD
 #   API SHELLBOT: SCOTT
-#   CONTATO TELEGRAM: http://@GUSTAVO18929
-#   CANAL TELEGRAM: http://@GUSTAVO18929
-#===================================================
+#   CONTATO TELEGRAM: http://#   CANAL TELEGRAM: http://#===================================================
 [[ ! -d /etc/SSHPlus ]] && exit 0
 [[ ! -d /etc/bot ]] && exit 0
 source ShellBot.sh
@@ -23,7 +21,7 @@ fun_menu() {
     [[ "${message_from_id[$id]}" == "$id_admin" ]] && {
         local env_msg
 env_msg="╔═══════•⊱✦⊰•═══════╗\n"
-        env_msg+="<b>        GUSTAVO-VPN</b>\n"
+        env_msg+="<b>        SSHPLUS MOD</b>\n"
         env_msg+="╚═══════•⊱✦⊰•═══════╝\n\n"
         env_msg+="⚠️ <i>SELECIONE UMA OPCAO ABAIXO !</i>\n\n"
         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} --text "$env_msg" \
@@ -39,7 +37,7 @@ env_msg="╔═══════•⊱✦⊰•═══════╗\n"
     if [[ "$(grep -w "${message_from_username}" $ativos | grep -wc 'revenda')" != '0' ]]; then
         local env_msg
 env_msg="╔═══════•⊱✦⊰•═══════╗\n"
-        env_msg+="<b>        GUSTAVO-VPN</b>\n"
+        env_msg+="<b>        SSHPLUS MOD</b>\n"
         env_msg+="╚═══════•⊱✦⊰•═══════╝\n\n"
         env_msg+="⚠️ <i>SELECIONE UMA OPCAO ABAIXO !</i>\n\n"
         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} --text "$env_msg" \
@@ -49,7 +47,7 @@ env_msg="╔═══════•⊱✦⊰•═══════╗\n"
     elif [[ "$(grep -w "${message_from_username}" $ativos | grep -wc 'subrevenda')" != '0' ]]; then
         local env_msg
 env_msg="╔═══════•⊱✦⊰•═══════╗\n"
-        env_msg+="<b>        GUSTAVO-VPN</b>\n"
+        env_msg+="<b>        SSHPLUS MOD</b>\n"
         env_msg+="╚═══════•⊱✦⊰•═══════╝\n\n"
         env_msg+="⚠️ <i>SELECIONE UMA OPCAO ABAIXO !</i>\n\n"
         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} --text "$env_msg" \
@@ -74,7 +72,7 @@ fun_ajuda() {
     if [[ "$id_chatuser" = "$id_admin" ]]; then
         local env_msg
 env_msg="╔═══════•⊱✦⊰•═══════╗\n"
-        env_msg+="<b>        GUSTAVO-VPN</b>\n"
+        env_msg+="<b>        SSHPLUS MOD</b>\n"
         env_msg+="╚═══════•⊱✦⊰•═══════╝\n\n"
         env_msg+="⚠️ <i>Comandos Disponiveis</i>\n\n"
         env_msg+="[<b>01</b>] /menu = Exibe menu\n"
@@ -110,7 +108,7 @@ env_msg="╔═══════•⊱✦⊰•═══════╗\n"
     elif [[ "$(grep -w "$id_name" $ativos | awk '{print $NF}')" == 'revenda' ]]; then
         local env_msg
 env_msg="╔═══════•⊱✦⊰•═══════╗\n"
-        env_msg+="<b>        GUSTAVO-VPN</b>\n"
+        env_msg+="<b>        SSHPLUS MOD</b>\n"
         env_msg+="╚═══════•⊱✦⊰•═══════╝\n\n"
         env_msg+="⚠️ <i>Comandos Disponiveis</i>\n\n"
         env_msg+="[<b>01</b>] /menu = Exibe menu\n"
@@ -136,7 +134,7 @@ env_msg="╔═══════•⊱✦⊰•═══════╗\n"
     elif [[ "$(grep -w "$id_name" $ativos | awk '{print $NF}')" == 'subrevenda' ]]; then
         local env_msg
 env_msg="╔═══════•⊱✦⊰•═══════╗\n"
-        env_msg+="<b>        GUSTAVO-VPN</b>\n"
+        env_msg+="<b>        SSHPLUS MOD</b>\n"
         env_msg+="╚═══════•⊱✦⊰•═══════╝\n\n"
         env_msg+="⚠️ <i>Comandos Disponiveis</i>\n\n"
         env_msg+="[<b>01</b>] /menu = Exibe menu\n"
